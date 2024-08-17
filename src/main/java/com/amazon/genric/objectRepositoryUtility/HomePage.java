@@ -48,5 +48,8 @@ public void searchProduct(String data)
 {
 	searchBoxEdt.sendKeys(data);
 	searchButtonEdt.click();
+System.out.println("        ");
+System.out.println("        ");
+System.out.println("        ");
 }
 }
