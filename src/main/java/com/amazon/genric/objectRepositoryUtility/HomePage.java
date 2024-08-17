@@ -20,6 +20,9 @@ public class HomePage {
 	@FindBy(id="nav-cart-count-container")
 	private WebElement cartButtonEdt;
 	
+	@FindBy(id="nav-cart-count-container")
+	private WebElement cartButtonEdt1;
+	
 	
 public HomePage(WebDriver driver)
 {
