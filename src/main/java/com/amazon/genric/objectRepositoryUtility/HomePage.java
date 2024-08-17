@@ -44,5 +44,6 @@ public void searchProduct(String data)
 	searchButtonEdt.click();
 	System.out.println("Hello");
 	System.out.println("Hello bye");
+	System.out.println("Hello bye");
 }
 }
