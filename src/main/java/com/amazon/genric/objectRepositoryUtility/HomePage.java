@@ -23,6 +23,9 @@ public class HomePage {
 	@FindBy(id="nav-cart-count-container")
 	private WebElement cartButtonEdt1;
 	
+	@FindBy(id="nav-cart-count-container")
+	private WebElement cartButtonEdt2;
+	
 	
 public HomePage(WebDriver driver)
 {
@@ -45,5 +48,8 @@ public void searchProduct(String data)
 {
 	searchBoxEdt.sendKeys(data);
 	searchButtonEdt.click();
+System.out.println("        ");
+System.out.println("        ");
+System.out.println("        ");
 }
 }
